@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "App.js",
+  "engines": {
+    "node":"16.17.1",
+    "npm":"8.15.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"node App.js"
