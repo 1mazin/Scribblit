@@ -1,6 +1,6 @@
 const express=require('express');  
 const socket=require('socket.io');
-let port=3000
+let port=process.env.PORT || 3000 
 const app=express(); //Initialized and server ready
 
 app.use(express.static("public"))
